@@ -16,6 +16,11 @@
 
                     {{ __('You are logged in!') }}
                 </div>
+
+                {{-- <button type="button" class="btn btn-warning">
+                    <a href="{{route("project.index", $project)}}">Visita tutti i progetti</a>
+                </button> --}}
+
             </div>
         </div>
     </div>
