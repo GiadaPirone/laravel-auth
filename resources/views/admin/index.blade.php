@@ -3,9 +3,6 @@
 @section('content')
 <div class="container my-3">
     <div class="row g-4">
-        <button type="button" class="btn btn-warning">
-            <a href="{{route("fumetti.create")}}">Aggiungi un fumetto</a>
-        </button>
 
         <div class="col d-flex flex-wrap">
             @foreach ($projects as $project)
